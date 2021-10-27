@@ -94,7 +94,7 @@ check_message(test=True)
 
 # schedule crawler
 schedule.every(1).minutes.do(check_message)
-schedule.every(1).minutes.do.do(summary_message)
+schedule.every(1).minutes.do(summary_message)
 api_key = '2090791658:AAHGsqGNBdnV40Ipfu1QbSKCMUE2KLP5DGs'
 chatId = '488317834'
 crawl_url = ''
